@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>infiniteCash</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>infiniteCash</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include=".github\workflows\build.yml" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="PathsPlusPlus">
+        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\Mods\PathsPlusPlus.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Import Project="..\btd6.targets" />
+</Project>
