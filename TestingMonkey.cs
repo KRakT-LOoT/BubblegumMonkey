@@ -59,6 +59,10 @@ namespace BubblegumMonkey
             stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().interval = 24;
             stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().Interval = 24;
             stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().interval = 24;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)17;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)17;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)17;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)17;
             stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().Interval = 24;
             stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<SlowModel>().overlayType = "GlueStronger";
             stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<SlowModel>().multiplier = 0.80f;
@@ -124,6 +128,8 @@ namespace BubblegumMonkey
             stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehaviors<SlowModifierForTagModel>()[0].resetToUnmodified = false;
             stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehaviors<SlowModifierForTagModel>()[0].tag = "Bad";
             stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehaviors<SlowModifierForTagModel>()[0].slowMultiplier = 100;
+            stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<AddBehaviorToBloonModel>().GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)17;
+            stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<AddBehaviorToBloonModel>().GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)17;
             //project.CanHitCamo();
 
             //project.GetDamageModel().damage = 999;

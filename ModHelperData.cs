@@ -9,6 +9,6 @@ public static class ModHelperData
     public const string Description = " Testing Mod";
 
     public const string RepoOwner = "KRakT-LOoT"; // TODO add your github username hero, also in the download url in README.md
-    public const string RepoName = "Bubblegum-Monkey"; // TODO add your repo name here, also in the download url in README.md
+    public const string RepoName = "BubblegumMonkey"; // TODO add your repo name here, also in the download url in README.md
     //public const string Dependencies = "doombubbles/paths-plus-plus";
 }
