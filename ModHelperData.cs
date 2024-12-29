@@ -1,4 +1,4 @@
-namespace BubbleGum_Monkey;
+namespace BubblegumMonkey;
 
 public static class ModHelperData
 {
