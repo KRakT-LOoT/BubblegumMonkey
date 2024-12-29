@@ -8,7 +8,7 @@ on:
       - '*'
 
 env:
-  PROJECT_NAME: infiniteCash
+  PROJECT_NAME: BubblegumMonkey
   
   MOD_HELPER_NAME: Btd6ModHelper
   BLOONSTD6: ./BloonsTD6
