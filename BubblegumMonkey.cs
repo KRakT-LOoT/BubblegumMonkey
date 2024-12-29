@@ -1,7 +1,7 @@
 using MelonLoader;
 using BTD_Mod_Helper;
 using BubblegumMonkey;
-using BubbleGum_Monkey;
+using BubblegumMonkey;
 using BTD_Mod_Helper.Api.ModOptions;
 using BTD_Mod_Helper.Api.Towers;
 using Il2CppAssets.Scripts.Unity;
