@@ -102,6 +102,12 @@ namespace BubblegumMonkey.Upgrades.BottomPath
             pro.GetBehavior<CreateProjectileOnContactModel>().projectile.GetDamageModel().damage += 1;
             pro.GetBehavior<CreateProjectileOnContactModel>().projectile.GetDamageModel().immuneBloonProperties = (Il2Cpp.BloonProperties)0;
             pro.GetBehavior<CreateProjectileOnContactModel>().projectile.GetDamageModel().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<AddBehaviorToBloonModel>().GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<CreateProjectileOnContactModel>()[0].projectile.GetBehavior<AddBehaviorToBloonModel>().GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[0].GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().immuneBloonProperties = (Il2Cpp.BloonProperties)0;
+            stuck.GetBehaviors<AddBehaviorToBloonModel>()[1].GetBehavior<DamageOverTimeModel>().immuneBloonPropertiesOriginal = (Il2Cpp.BloonProperties)0;
             towerModel.range *= 1.2f;
             towerModel.GetAttackModel().range *= 1.2f;
             stuck.radius *= 1.2f;
