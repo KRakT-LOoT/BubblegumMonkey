@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using infiniteCash.Upgrades.BottomPath;
-using infiniteCash.Upgrades.TopPath;
 using Il2CppAssets.Scripts.Models.Bloons.Behaviors;
-using static infiniteCash.Upgrades.TopPath.TestingUpgradesTopPath4;
-using static infiniteCash.TestingMonkey;
+using static BubblegumMonkey.TestingMonkey;
+using BubblegumMonkey;
+using BubblegumMonkey.Upgrades.BottomPath;
+using BubblegumMonkey.Upgrades.TopPath;
 
 
-namespace infiniteCash.Upgrades.MiddlePath
+namespace BubblegumMonkey.Upgrades.MiddlePath
 {
     internal class TestingUpgradesMiddlePath1 : ModUpgrade<TestingMonkey>
     {

@@ -1,5 +1,6 @@
 ﻿using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
+using BubblegumMonkey;
 using Il2CppAssets.Scripts.Models.Bloons.Behaviors;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Models.Towers.Behaviors.Emissions;
@@ -11,9 +12,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static infiniteCash.TestingMonkey;
+using static BubblegumMonkey.TestingMonkey;
 
-namespace infiniteCash.Upgrades.BottomPath
+namespace BubblegumMonkey.Upgrades.BottomPath
 {
     internal class TestingUpgradesBottomPath1 : ModUpgrade<TestingMonkey>
     {

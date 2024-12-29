@@ -22,7 +22,7 @@ using Il2CppAssets.Scripts.Unity.Display;
 using Il2CppAssets.Scripts.Models.Towers.Behaviors.Attack.Behaviors;
 
 
-namespace infiniteCash.Upgrades.TopPath
+namespace BubblegumMonkey.Upgrades.TopPath
 {
     internal class TestingUpgradesTopPath1 : ModUpgrade<TestingMonkey>
     {
@@ -209,6 +209,7 @@ namespace infiniteCash.Upgrades.TopPath
             pro.GetBehavior<CreateProjectileOnContactModel>().projectile.radius *= 1.2f;
         }
 
+        }
         internal class TestingUpgradesTopPath5 : ModUpgrade<TestingMonkey>
         {
             public override int Path => 0;
@@ -241,6 +242,5 @@ namespace infiniteCash.Upgrades.TopPath
                 stuck.GetBehavior<CreateProjectileOnContactModel>().projectile.radius *= 1.2f;
                 pro.GetBehavior<CreateProjectileOnContactModel>().projectile.radius *= 1.2f;
             }
-        }
     }
 }

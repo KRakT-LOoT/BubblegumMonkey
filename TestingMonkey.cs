@@ -16,10 +16,10 @@ using BTD_Mod_Helper.Extensions;
 using BTD_Mod_Helper;
 using BTD_Mod_Helper.Api.ModOptions;
 using System.Reflection.Metadata;
-using infiniteCash;
+using BubblegumMonkey;
 using Il2CppAssets.Scripts.Data.ParagonData;
 
-namespace infiniteCash
+namespace BubblegumMonkey
 {
 
 
@@ -34,7 +34,7 @@ namespace infiniteCash
         public override int BottomPathUpgrades => 5;
         public override string Description => "Tower Hit Damage and Blast Radius Increases With EVERY upgrade!!!";
         public override string DisplayName => "Bubblegum Monkey";
-        public override ParagonMode ParagonMode => infiniteCash.idk(infiniteCash.Paragon);
+        public override ParagonMode ParagonMode => BubblegumMonkey.idk(BubblegumMonkey.Paragon);
 
 
         public override void ModifyBaseTowerModel(TowerModel towerModel)

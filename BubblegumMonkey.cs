@@ -1,22 +1,22 @@
 using MelonLoader;
 using BTD_Mod_Helper;
-using infiniteCash;
+using BubblegumMonkey;
 using BubbleGum_Monkey;
 using BTD_Mod_Helper.Api.ModOptions;
 using BTD_Mod_Helper.Api.Towers;
 using Il2CppAssets.Scripts.Unity;
 using BTD_Mod_Helper.Extensions;
 
-[assembly: MelonInfo(typeof(infiniteCash.infiniteCash), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
+[assembly: MelonInfo(typeof(BubblegumMonkey.BubblegumMonkey), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
-namespace infiniteCash;
+namespace BubblegumMonkey;
 
-public class infiniteCash : BloonsTD6Mod
+public class BubblegumMonkey : BloonsTD6Mod
 {
     public override void OnApplicationStart()
     {
-        ModHelper.Msg<infiniteCash>("infiniteCash loaded!");
+        ModHelper.Msg<BubblegumMonkey>("BubblegumMonkey loaded!");
 
 
     }

@@ -11,7 +11,7 @@ using BTD_Mod_Helper.Extensions;
 using Il2CppAssets.Scripts.Models.TowerSets;
 using Il2CppAssets.Scripts.Models.Towers.Filters;
 
-namespace infiniteCash.Upgrades
+namespace BubblegumMonkey.Upgrades
 {
     /*
     internal class Science : PathPlusPlus
