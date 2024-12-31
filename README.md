@@ -6,6 +6,9 @@
 BubblegumMonkey
 </h1>
 
+<ih1 align="left"><img height="30" src="https://img.shields.io/github/downloads/KRakT-LOoT/BubblegumMonkey/total?labe=Total%20Downloads">
+
+
 Monkey that shoots bubblegum at the bloons
 
 Work in Progress mod
